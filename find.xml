@@ -10,9 +10,9 @@
     <mask>str*xml</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
-    <mask>s*xml</mask>
     <mask>*.*</mask>
     <mask>*.jsp</mask>
+    <mask>s*xml</mask>
     <mask>pom.xml</mask>
   </component>
 </application>
