@@ -94,5 +94,16 @@
     <driver id="vertica">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="java.sql.Driver" name="kingbase8" driver-class="com.kingbase8.Driver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://$USER_HOME$/iriswork/tools/database/kingbase8-8.2.0.jar</url>
+      </library>
+    </driver>
   </component>
 </application>
