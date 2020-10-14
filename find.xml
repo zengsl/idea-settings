@@ -5,7 +5,7 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="s*xml" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>str*xml</mask>
@@ -15,8 +15,8 @@
     <mask>*.properties</mask>
     <mask>*mapper.xml</mask>
     <mask>*.java</mask>
-    <mask>s*xml</mask>
     <mask>pom.xml</mask>
     <mask>*.*</mask>
+    <mask>s*xml</mask>
   </component>
 </application>
