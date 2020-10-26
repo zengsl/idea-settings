@@ -3,11 +3,10 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*mapper.xml" />
+    <option name="FILE_MASK" value="*.jsp" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>str*xml</mask>
-    <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>*.propertis</mask>
     <mask>*.properties</mask>
@@ -17,5 +16,6 @@
     <mask>*.js</mask>
     <mask>s*xml</mask>
     <mask>*mapper.xml</mask>
+    <mask>*.jsp</mask>
   </component>
 </application>
