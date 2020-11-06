@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*.properties" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>str*xml</mask>
@@ -14,11 +14,11 @@
     <mask>*Action.java</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
-    <mask>*.properties</mask>
     <mask>*grid.jsp</mask>
     <mask>s*xml</mask>
     <mask>*mapper.xml</mask>
     <mask>appli*xml</mask>
     <mask>*.*</mask>
+    <mask>*.properties</mask>
   </component>
 </application>
