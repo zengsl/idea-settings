@@ -1,0 +1,82 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Alternatively" />
+      <item value="Some shortcuts in this course may conflict with the system or other application shortcuts. In this case, you can click the problematic shortcut in the text of the lesson. The opened popup will show you the action name and alternative shortcuts. You will be able to apply the action or assign a new shortcut." />
+      <item value="You are likely reading this `README.md` during the learning project initialization. Usually, `indexing` is the most time-consuming operation during project initialization. The IDE will need to collect information about your environment, project, libraries, and construct internal representation. It is needed for fast navigation and search. The `Navigation` module in this course will show how to use it." />
+      <item value="The `Learn` tool window contains several modules with the corresponding sets of lessons that you can take in any order. When you finish studying a lesson, it will be marked as completed. You can use a completed lesson for your reference or restart it if you want to refresh your knowledge. Even though a lesson looks familiar to you, give it a try: you may discover helpful examples and unknown shortcuts of the features you actively use!" />
+      <item value="Interactive" />
+      <item value="Meet the Interactive Feature Trainer" />
+      <item value="Sql Session Template" />
+      <item value="The default implementation for the DTMManager. %REVIEW% There is currently a reentrancy issue, since the finalizer for XRTreeFrag (which runs in the GC thread) wants to call DTMManager.release(), and may do so at the same time that the main transformation thread is accessing the manager. Our current solution is to make most of the manager's methods &lt;code&gt;synchronized&lt;code&gt;. Early tests suggest that doing so is not causing a significant performance hit in Xalan. However, it should be noted that there is a possible alternative solution: rewrite release() so it merely posts a request for release onto a threadsafe queue, and explicitly process that queue on an infrequent basis during main-thread activity (eg, when getDTM() is invoked). The downside of that solution would be a greater delay before the DTM's storage is actually released for reuse." />
+      <item value="The lock protecting all mutators. (We have a mild preference for builtin monitors over ReentrantLock when either will do.)" />
+      <item value="The lock protecting all mutators." />
+      <item value="Creates a new {@code CyclicBarrier} that will trip when the given number of parties (threads) are waiting upon it, and which will execute the given barrier action when the barrier is tripped, performed by the last thread entering the barrier" />
+      <item value="predNext is the apparent node to unsplice. CASes below will fail if not, in which case, we lost race vs another cancel or signal, so no further action is necessary." />
+      <item value="predNext is the apparent node to unsplice" />
+      <item value="unsplice" />
+      <item value="Thread to unpark is held in successor, which is normally just the next node. But if cancelled or apparently null, traverse backwards from tail to find the actual non-cancelled successor" />
+      <item value="If status is negative (i.e., possibly needing signal) try to clear in anticipation of signalling. It is OK if this fails or if status is changed by waiting thread." />
+      <item value="If status is negative (i.e., possibly needing signal) try to clear in anticipation of signalling." />
+      <item value="Implemented by unblocking one or more threads if {@link tryRelease} returns true" />
+      <item value="exclusive" />
+      <item value="indicate" />
+      <item value="This method does &lt;em&gt;not&lt;em&gt; report which of these caused the method to return. Callers should re-check the conditions which caused the thread to park in the first place. Callers may also determine, for example, the interrupt status of the thread upon return" />
+      <item value="spuriously" />
+      <item value="Some other thread {@linkplain Threadinterrupt interrupts} the current thread" />
+      <item value="it is consumed and the call returns immediately" />
+      <item value="If the permit is available then it is consumed and the call returns immediately; otherwise the current thread becomes disabled for thread scheduling purposes and lies dormant until one of three things happens" />
+      <item value="Indicate that we need a signal, but don't park yet. Caller will need to retry to make sure it cannot acquire before parking" />
+      <item value="This node is currently on a condition queue. It will not be used as a sync queue node until transferred, at which time the status will be set to 0. (Use of this value here has nothing to do with the other uses of the field, but simplifies mechanics" />
+      <item value="Predecessor was cancelled. Skip over predecessors and indicate retry" />
+      <item value="if thread should block" />
+      <item value="Returns true if thread should block" />
+      <item value="This is the main signal control in all acquire loops" />
+      <item value="This is the main signal如果线程阻塞，则返回true control in all acquire loops" />
+      <item value="Checks and updates status for a node that failed to acquire" />
+      <item value="Checks and updates status for a node that failed to acquire. Returns true if thread should block. This is the main signal control in all acquire loops. Requires that pred == node.prev" />
+      <item value="Wakes up node's successor, if one exists" />
+      <item value="Otherwise wake it up to propagate" />
+      <item value="so it will get one. Otherwise wake it up to propagate" />
+      <item value="If successor needs signal, try to set pred's next-link" />
+      <item value="predNext is the apparent node to unsplice. CASes below will fail if not, in which case, we lost race vs another cancel or signal, so no further action is necessary" />
+      <item value="This node is cancelled due to timeout or interrupt. Nodes never leave this state. In particular, a thread with cancelled node never again blocks" />
+      <item value="Skip cancelled predecessors" />
+      <item value="Used by condition wait methods as well as acquire" />
+      <item value="Acquires in exclusive uninterruptible mode for thread already in queue" />
+      <item value="Cancels an ongoing attempt to acquire" />
+      <item value="Sets head of queue to be node, thus dequeuing." />
+      <item value="Sets head of queue to be node, thus dequeuing. Called only by acquire methods. Also nulls out unused fields for sake of GC and to suppress unnecessary signals and traversals" />
+      <item value="Link to next node waiting on condition, or the special value SHARED. Because condition queues are accessed only when holding in exclusive mode, we just need a simple linked queue to hold nodes while they are waiting on conditions. They are then transferred to the queue to re-acquire. And because conditions can only be exclusive, we save a field by using special value to indicate shared mode" />
+      <item value="as well as acquire" />
+      <item value="Used by condition wait methods" />
+      <item value="Various flavors of acquire, varying in exclusiveshared and control modes. Each is mostly the same, but annoyingly different. Only a little bit of factoring is possible due to interactions of exception mechanics (including ensuring that we cancel if tryAcquire throws exception) and other control, at least not without hurting performance too much" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="122" />
+        <entry key="ENGLISH" value="123" />
+        <entry key="CZECH" value="1" />
+        <entry key="PORTUGUESE" value="1" />
+        <entry key="ESPERANTO" value="3" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1628910375408" />
+  </component>
+  <component name="Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="20200323000403253" />
+      </app-key>
+    </option>
+    <option name="targetLanguageSelection" value="PRIMARY_LANGUAGE" />
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="1d827835062ae583" />
+      </youdao-translate>
+    </option>
+  </component>
+</application>
