@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.jsp" />
+    <option name="FILE_MASK" value="*Filter.java" />
     <mask>*.html</mask>
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
@@ -19,8 +19,8 @@
     <mask>*.*</mask>
     <mask>*mapper.xml</mask>
     <mask>*.java</mask>
-    <mask>*Filter.java</mask>
     <mask>str*.xml</mask>
     <mask>*.jsp</mask>
+    <mask>*Filter.java</mask>
   </component>
 </application>
