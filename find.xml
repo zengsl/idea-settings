@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*Dao.java" />
     <mask>*.html</mask>
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
@@ -22,5 +22,6 @@
     <mask>*Filter.java</mask>
     <mask>*.jsp</mask>
     <mask>*.*</mask>
+    <mask>*Dao.java</mask>
   </component>
 </application>
