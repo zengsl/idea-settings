@@ -19,9 +19,9 @@
     <mask>*Filter.java</mask>
     <mask>*.*</mask>
     <mask>*Dao.java</mask>
-    <mask>str*.xml</mask>
     <mask>*.js</mask>
     <mask>*.jsp</mask>
+    <mask>str*.xml</mask>
     <mask>*.java</mask>
   </component>
 </application>
