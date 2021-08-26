@@ -23,6 +23,7 @@
     <mask>*.java</mask>
     <mask>*.yml</mask>
     <mask>pom.xml</mask>
+    <mask>appli*xml</mask>
     <mask>*.*</mask>
   </component>
 </application>
