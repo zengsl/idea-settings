@@ -3,6 +3,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/Project/study/mall" />
+        <option value="$USER_HOME$/Project/study" />
       </list>
     </option>
   </component>
