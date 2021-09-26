@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="in favor of" />
       <item value="Alternatively" />
       <item value="Some shortcuts in this course may conflict with the system or other application shortcuts. In this case, you can click the problematic shortcut in the text of the lesson. The opened popup will show you the action name and alternative shortcuts. You will be able to apply the action or assign a new shortcut." />
       <item value="You are likely reading this `README.md` during the learning project initialization. Usually, `indexing` is the most time-consuming operation during project initialization. The IDE will need to collect information about your environment, project, libraries, and construct internal representation. It is needed for fast navigation and search. The `Navigation` module in this course will show how to use it." />
@@ -50,12 +51,11 @@
       <item value="Link to next node waiting on condition, or the special value SHARED. Because condition queues are accessed only when holding in exclusive mode, we just need a simple linked queue to hold nodes while they are waiting on conditions. They are then transferred to the queue to re-acquire. And because conditions can only be exclusive, we save a field by using special value to indicate shared mode" />
       <item value="as well as acquire" />
       <item value="Used by condition wait methods" />
-      <item value="Various flavors of acquire, varying in exclusiveshared and control modes. Each is mostly the same, but annoyingly different. Only a little bit of factoring is possible due to interactions of exception mechanics (including ensuring that we cancel if tryAcquire throws exception) and other control, at least not without hurting performance too much" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="122" />
-        <entry key="ENGLISH" value="123" />
+        <entry key="CHINESE" value="123" />
+        <entry key="ENGLISH" value="124" />
         <entry key="CZECH" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="ESPERANTO" value="3" />
@@ -63,7 +63,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1628910375408" />
+    <option name="lastTrimTime" value="1632635413716" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
