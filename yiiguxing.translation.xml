@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="acquire" />
       <item value="Specifies that this bean should be given preference when multiple candidates are qualified to autowire a single-valued dependency. If exactly one 'primary' bean exists among the candidates, it will be the autowired value." />
       <item value="Specifies that this bean should be given preference when multiple" />
       <item value="in favor of" />
@@ -50,12 +51,11 @@
       <item value="Cancels an ongoing attempt to acquire" />
       <item value="Sets head of queue to be node, thus dequeuing." />
       <item value="Sets head of queue to be node, thus dequeuing. Called only by acquire methods. Also nulls out unused fields for sake of GC and to suppress unnecessary signals and traversals" />
-      <item value="Link to next node waiting on condition, or the special value SHARED. Because condition queues are accessed only when holding in exclusive mode, we just need a simple linked queue to hold nodes while they are waiting on conditions. They are then transferred to the queue to re-acquire. And because conditions can only be exclusive, we save a field by using special value to indicate shared mode" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="125" />
-        <entry key="ENGLISH" value="126" />
+        <entry key="CHINESE" value="126" />
+        <entry key="ENGLISH" value="127" />
         <entry key="CZECH" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="ESPERANTO" value="3" />
