@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*mapper.xml" />
     <mask>*.html</mask>
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
@@ -14,7 +14,6 @@
     <mask>*.properties</mask>
     <mask>*Filter.java</mask>
     <mask>*Dao.java</mask>
-    <mask>*mapper.xml</mask>
     <mask>*.css</mask>
     <mask>*.yml</mask>
     <mask>*.js</mask>
@@ -25,5 +24,6 @@
     <mask>*.java</mask>
     <mask>*.xml</mask>
     <mask>*.*</mask>
+    <mask>*mapper.xml</mask>
   </component>
 </application>
