@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="unparking" />
+      <item value="This node has already set status asking a release to signal it, so it can safely park." />
+      <item value="waitStatus value to indicate successor's thread needs unparking" />
+      <item value="park" />
+      <item value="successor" />
+      <item value="should Park After Failed Acquire" />
       <item value="accurate" />
       <item value="The correctness of this depends on head being initialized before tail and on head.next being accurate if the current thread is first in queue" />
       <item value="Read fields in reverse initialization order" />
@@ -45,17 +51,12 @@
       <item value="Predecessor was cancelled. Skip over predecessors and indicate retry" />
       <item value="if thread should block" />
       <item value="Returns true if thread should block" />
-      <item value="This is the main signal control in all acquire loops" />
-      <item value="This is the main signal如果线程阻塞，则返回true control in all acquire loops" />
-      <item value="Checks and updates status for a node that failed to acquire" />
-      <item value="Checks and updates status for a node that failed to acquire. Returns true if thread should block. This is the main signal control in all acquire loops. Requires that pred == node.prev" />
-      <item value="Wakes up node's successor, if one exists" />
-      <item value="Otherwise wake it up to propagate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="138" />
-        <entry key="ENGLISH" value="138" />
+        <entry key="CHINESE" value="144" />
+        <entry key="ENGLISH" value="143" />
+        <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="PORTUGUESE" value="2" />
         <entry key="ESPERANTO" value="3" />
