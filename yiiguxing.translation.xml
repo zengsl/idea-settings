@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Second try is the caching operation on the target class" />
+      <item value="First try is the method in the target class" />
       <item value="remaining" />
       <item value="If status is negative (i.e., possibly needing signal) try to clear in anticipation of signalling. It is OK if this fails or if status is changed by waiting thread" />
       <item value="unparking" />
@@ -49,13 +51,11 @@
       <item value="it is consumed and the call returns immediately" />
       <item value="If the permit is available then it is consumed and the call returns immediately; otherwise the current thread becomes disabled for thread scheduling purposes and lies dormant until one of three things happens" />
       <item value="Indicate that we need a signal, but don't park yet. Caller will need to retry to make sure it cannot acquire before parking" />
-      <item value="This node is currently on a condition queue. It will not be used as a sync queue node until transferred, at which time the status will be set to 0. (Use of this value here has nothing to do with the other uses of the field, but simplifies mechanics" />
-      <item value="Predecessor was cancelled. Skip over predecessors and indicate retry" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="146" />
-        <entry key="ENGLISH" value="145" />
+        <entry key="CHINESE" value="148" />
+        <entry key="ENGLISH" value="147" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="PORTUGUESE" value="2" />
