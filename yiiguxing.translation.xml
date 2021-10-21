@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Indicates the 'role' hint for a given bean. &lt;p&gt;May be used on any class directly or indirectly annotated with {@link org.springframework.stereotype.Component} or on methods annotated with {@link Bean}. &lt;p&gt;If this annotation is not present on a Component or Bean definition, the default value of {@link BeanDefinitionROLE_APPLICATION} will apply. &lt;p&gt;If Role is present on a {@link Configuration @Configuration} class, this indicates the role of the configuration class bean definition and does not cascade to all @{@code Bean} methods defined within. This behavior is different than that of the @{@link Lazy} annotation, for example." />
       <item value="Second try is the caching operation on the target class" />
       <item value="First try is the method in the target class" />
       <item value="remaining" />
@@ -50,12 +51,11 @@
       <item value="Some other thread {@linkplain Threadinterrupt interrupts} the current thread" />
       <item value="it is consumed and the call returns immediately" />
       <item value="If the permit is available then it is consumed and the call returns immediately; otherwise the current thread becomes disabled for thread scheduling purposes and lies dormant until one of three things happens" />
-      <item value="Indicate that we need a signal, but don't park yet. Caller will need to retry to make sure it cannot acquire before parking" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="148" />
-        <entry key="ENGLISH" value="147" />
+        <entry key="CHINESE" value="149" />
+        <entry key="ENGLISH" value="148" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="PORTUGUESE" value="2" />
