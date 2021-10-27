@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If otherwise eligible to terminate but workerCount is nonzero, interrupts an idle worker to ensure that shutdown signals propagate. This method must be called following any action that might make termination possible -- reducing worker count or removing tasks from the queue during shutdown. The method is non-private to allow access from ScheduledThreadPoolExecutor" />
+      <item value="rechecks for termination, in case the existence of this worker was holding up termination" />
+      <item value="Check if queue empty only if necessary" />
+      <item value="because existing ones died since last checking" />
+      <item value="Inserts the specified element into this queue, if another thread is waiting to receive it." />
       <item value="1. If fewer than corePoolSize threads are running, try to start a new thread with the given command as its first task. The call to addWorker atomically checks runState and workerCount, and so prevents false alarms that would add threads when it shouldn't, by returning false. 2. If a task can be successfully queued, then we still need to double-check whether we should have added a thread (because existing ones died since last checking) or that the pool shut down since entry into this method. So we recheck state and if necessary roll back the enqueuing if stopped, or start a new thread if there are none. 3. If we cannot queue task, then we try to add a new thread. If it fails, we know we are shut down or saturated and so reject the task." />
       <item value="TIDYING" />
       <item value="Indicates the 'role' hint for a given bean. &lt;p&gt;May be used on any class directly or indirectly annotated with {@link org.springframework.stereotype.Component} or on methods annotated with {@link Bean}. &lt;p&gt;If this annotation is not present on a Component or Bean definition, the default value of {@link BeanDefinitionROLE_APPLICATION} will apply. &lt;p&gt;If Role is present on a {@link Configuration @Configuration} class, this indicates the role of the configuration class bean definition and does not cascade to all @{@code Bean} methods defined within. This behavior is different than that of the @{@link Lazy} annotation, for example." />
@@ -46,16 +51,11 @@
       <item value="If status is negative (i.e., possibly needing signal) try to clear in anticipation of signalling. It is OK if this fails or if status is changed by waiting thread." />
       <item value="If status is negative (i.e., possibly needing signal) try to clear in anticipation of signalling." />
       <item value="Implemented by unblocking one or more threads if {@link tryRelease} returns true" />
-      <item value="exclusive" />
-      <item value="indicate" />
-      <item value="This method does &lt;em&gt;not&lt;em&gt; report which of these caused the method to return. Callers should re-check the conditions which caused the thread to park in the first place. Callers may also determine, for example, the interrupt status of the thread upon return" />
-      <item value="spuriously" />
-      <item value="Some other thread {@linkplain Threadinterrupt interrupts} the current thread" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="151" />
-        <entry key="ENGLISH" value="150" />
+        <entry key="CHINESE" value="156" />
+        <entry key="ENGLISH" value="155" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="PORTUGUESE" value="2" />
