@@ -1,6 +1,21 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This operation has memory semantics" />
+      <item value="precheck that t is startable" />
+      <item value="If a task can be successfully queued, then we still need to double-check whether we should have added a thread (because existing ones died since last checking) or that the pool shut down since entry into this method. So we recheck state and if necessary roll back the enqueuing if stopped, or start a new thread if there are none" />
+      <item value="2. If a task can be successfully queued, then we still need to double-check whether we should have added a thread (because existing ones died since last checking) or that the pool shut down since entry into this method. So we recheck state and if necessary roll back the enqueuing if stopped, or start a new thread if there are none" />
+      <item value="Inserts the specified element into this queue, if another thread is waiting to receive it" />
+      <item value="If abrupt, then workerCount wasn't adjusted" />
+      <item value="Abruptly" />
+      <item value="completed Abruptly" />
+      <item value="Bit field accessors that don't require unpacking ctl. These depend on the bit layout and on workerCount being never negative" />
+      <item value="If pool is stopping, ensure thread is interrupted; if not, ensure thread is not interrupted. This requires a recheck in second case to deal with shutdownNow race while clearing interrupt" />
+      <item value="Eligible to terminate" />
+      <item value="terminate" />
+      <item value="Eligible" />
+      <item value="If true, interrupt at most one worker" />
+      <item value="Transitions to TERMINATED state" />
       <item value="If otherwise eligible to terminate but workerCount is nonzero, interrupts an idle worker to ensure that shutdown signals propagate. This method must be called following any action that might make termination possible -- reducing worker count or removing tasks from the queue during shutdown. The method is non-private to allow access from ScheduledThreadPoolExecutor" />
       <item value="rechecks for termination, in case the existence of this worker was holding up termination" />
       <item value="Check if queue empty only if necessary" />
@@ -36,26 +51,11 @@
       <item value="Alternatively" />
       <item value="Some shortcuts in this course may conflict with the system or other application shortcuts. In this case, you can click the problematic shortcut in the text of the lesson. The opened popup will show you the action name and alternative shortcuts. You will be able to apply the action or assign a new shortcut." />
       <item value="You are likely reading this `README.md` during the learning project initialization. Usually, `indexing` is the most time-consuming operation during project initialization. The IDE will need to collect information about your environment, project, libraries, and construct internal representation. It is needed for fast navigation and search. The `Navigation` module in this course will show how to use it." />
-      <item value="The `Learn` tool window contains several modules with the corresponding sets of lessons that you can take in any order. When you finish studying a lesson, it will be marked as completed. You can use a completed lesson for your reference or restart it if you want to refresh your knowledge. Even though a lesson looks familiar to you, give it a try: you may discover helpful examples and unknown shortcuts of the features you actively use!" />
-      <item value="Interactive" />
-      <item value="Meet the Interactive Feature Trainer" />
-      <item value="Sql Session Template" />
-      <item value="The default implementation for the DTMManager. %REVIEW% There is currently a reentrancy issue, since the finalizer for XRTreeFrag (which runs in the GC thread) wants to call DTMManager.release(), and may do so at the same time that the main transformation thread is accessing the manager. Our current solution is to make most of the manager's methods &lt;code&gt;synchronized&lt;code&gt;. Early tests suggest that doing so is not causing a significant performance hit in Xalan. However, it should be noted that there is a possible alternative solution: rewrite release() so it merely posts a request for release onto a threadsafe queue, and explicitly process that queue on an infrequent basis during main-thread activity (eg, when getDTM() is invoked). The downside of that solution would be a greater delay before the DTM's storage is actually released for reuse." />
-      <item value="The lock protecting all mutators. (We have a mild preference for builtin monitors over ReentrantLock when either will do.)" />
-      <item value="The lock protecting all mutators." />
-      <item value="Creates a new {@code CyclicBarrier} that will trip when the given number of parties (threads) are waiting upon it, and which will execute the given barrier action when the barrier is tripped, performed by the last thread entering the barrier" />
-      <item value="predNext is the apparent node to unsplice. CASes below will fail if not, in which case, we lost race vs another cancel or signal, so no further action is necessary." />
-      <item value="predNext is the apparent node to unsplice" />
-      <item value="unsplice" />
-      <item value="Thread to unpark is held in successor, which is normally just the next node. But if cancelled or apparently null, traverse backwards from tail to find the actual non-cancelled successor" />
-      <item value="If status is negative (i.e., possibly needing signal) try to clear in anticipation of signalling. It is OK if this fails or if status is changed by waiting thread." />
-      <item value="If status is negative (i.e., possibly needing signal) try to clear in anticipation of signalling." />
-      <item value="Implemented by unblocking one or more threads if {@link tryRelease} returns true" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="156" />
-        <entry key="ENGLISH" value="155" />
+        <entry key="CHINESE" value="172" />
+        <entry key="ENGLISH" value="171" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="PORTUGUESE" value="2" />
