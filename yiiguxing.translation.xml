@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Treiber stack" />
+      <item value="Treiber" />
+      <item value="It is possible for our interrupter to stall before getting a chance to interrupt us" />
+      <item value="It is possible for our interrupter to stall before getting a chance to interrupt us. Let's spin-wait patiently" />
+      <item value="wait out pending interrupt" />
+      <item value="Ensures that any interrupt from a possible cancel(true) is only delivered to a task while in run or runAndReset" />
       <item value="culling" />
       <item value="Are workers subject to culling" />
       <item value="If abrupt, then workerCount wasn't adjusted" />
@@ -45,19 +51,14 @@
       <item value="predecessor" />
       <item value="Try the fast path of enq; backup to full enq on failure" />
       <item value="enqueues" />
-      <item value="Convenience" />
-      <item value="acquire" />
-      <item value="Specifies that this bean should be given preference when multiple candidates are qualified to autowire a single-valued dependency. If exactly one 'primary' bean exists among the candidates, it will be the autowired value." />
-      <item value="Specifies that this bean should be given preference when multiple" />
-      <item value="in favor of" />
-      <item value="Alternatively" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="176" />
-        <entry key="ENGLISH" value="175" />
+        <entry key="CHINESE" value="183" />
+        <entry key="ENGLISH" value="180" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
+        <entry key="ROMANIAN" value="2" />
         <entry key="PORTUGUESE" value="2" />
         <entry key="ESPERANTO" value="3" />
       </map>
