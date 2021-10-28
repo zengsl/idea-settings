@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="retain" />
+      <item value="don't retain ref while waiting" />
       <item value="Constrains the values of all delays in the queue to be within Long.MAX_VALUE of each other, to avoid overflow in compareTo. This may occur if a task is eligible to be dequeued, but has not yet been, while some other task is added with a delay of Long.MAX_VALUE" />
       <item value="Same as prestartCoreThread except arranges that at least one thread is started even if corePoolSize is 0" />
       <item value="We want to clear any interrupt we may have received from cancel(true). However, it is permissible to use interrupts as an independent mechanism for a task to communicate with its caller, and there is no way to clear only the cancellation interrupt" />
@@ -49,13 +51,11 @@
       <item value="accurate" />
       <item value="The correctness of this depends on head being initialized before tail and on head.next being accurate if the current thread is first in queue" />
       <item value="Read fields in reverse initialization order" />
-      <item value="Queries whether any threads have been waiting to acquire longer than the current thread." />
-      <item value="dummy" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="189" />
-        <entry key="ENGLISH" value="186" />
+        <entry key="CHINESE" value="191" />
+        <entry key="ENGLISH" value="188" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
