@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="sifts" />
       <item value="retain" />
       <item value="don't retain ref while waiting" />
       <item value="Constrains the values of all delays in the queue to be within Long.MAX_VALUE of each other, to avoid overflow in compareTo. This may occur if a task is eligible to be dequeued, but has not yet been, while some other task is added with a delay of Long.MAX_VALUE" />
@@ -50,12 +51,11 @@
       <item value="should Park After Failed Acquire" />
       <item value="accurate" />
       <item value="The correctness of this depends on head being initialized before tail and on head.next being accurate if the current thread is first in queue" />
-      <item value="Read fields in reverse initialization order" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="191" />
-        <entry key="ENGLISH" value="188" />
+        <entry key="CHINESE" value="192" />
+        <entry key="ENGLISH" value="189" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
