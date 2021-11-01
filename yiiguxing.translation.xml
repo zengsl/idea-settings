@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Parses all the unprocessed statement nodes in the cache. It is recommended to call this method once all the mappers are added as it provides fail-fast statement validation" />
+      <item value="arses all the unprocessed statement nodes in the cache. It is recommended to call this method once all the mappers are added as it provides fail-fast statement validation" />
       <item value="sifts" />
       <item value="retain" />
       <item value="don't retain ref while waiting" />
@@ -49,13 +51,11 @@
       <item value="park" />
       <item value="successor" />
       <item value="should Park After Failed Acquire" />
-      <item value="accurate" />
-      <item value="The correctness of this depends on head being initialized before tail and on head.next being accurate if the current thread is first in queue" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="192" />
-        <entry key="ENGLISH" value="189" />
+        <entry key="CHINESE" value="194" />
+        <entry key="ENGLISH" value="191" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
@@ -65,7 +65,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1635233133748" />
+    <option name="lastTrimTime" value="1635749553477" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
