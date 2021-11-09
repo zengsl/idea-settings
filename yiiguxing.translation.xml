@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Semantics" />
       <item value="definitive" />
       <item value="We have fallen off list" />
       <item value="We have fallen off list. If tail is unchanged, it will also be off-list, in which case we need to jump to head, from which all live nodes are always reachable. Else the new tail is a better bet" />
@@ -50,12 +51,11 @@
       <item value="Second try is the caching operation on the target class" />
       <item value="First try is the method in the target class" />
       <item value="remaining" />
-      <item value="If status is negative (i.e., possibly needing signal) try to clear in anticipation of signalling. It is OK if this fails or if status is changed by waiting thread" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="200" />
-        <entry key="ENGLISH" value="197" />
+        <entry key="CHINESE" value="201" />
+        <entry key="ENGLISH" value="198" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
