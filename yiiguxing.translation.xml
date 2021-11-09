@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="hop two nodes at a time" />
       <item value="the command to execute when the barrier is tripped" />
       <item value="Because TreeNodes are about twice the size of regular nodes, we use them only when bins contain enough nodes to warrant use (see TREEIFY_THRESHOLD). And when they become too small (due to removal or resizing) they are converted back to plain bins. In usages with well-distributed user hashCodes, tree bins are rarely used. Ideally, under random hashCodes, the frequency of nodes in bins follows a Poisson distribution (http:en.wikipedia.orgwikiPoisson_distribution) with a parameter of about 0.5 on average for the default resizing threshold of 0.75, although with a large variance because of resizing granularity. Ignoring variance, the expected occurrences of list size k are (exp(-0.5) pow(0.5, k) factorial(k)). The first values are:" />
       <item value="Parses all the unprocessed statement nodes in the cache. It is recommended to call this method once all the mappers are added as it provides fail-fast statement validation" />
@@ -50,12 +51,11 @@
       <item value="unparking" />
       <item value="This node has already set status asking a release to signal it, so it can safely park." />
       <item value="waitStatus value to indicate successor's thread needs unparking" />
-      <item value="park" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="196" />
-        <entry key="ENGLISH" value="193" />
+        <entry key="CHINESE" value="197" />
+        <entry key="ENGLISH" value="194" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
