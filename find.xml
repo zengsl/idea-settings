@@ -18,12 +18,12 @@
     <mask>*.yml</mask>
     <mask>*.js</mask>
     <mask>*.jsp</mask>
-    <mask>pom.xml</mask>
     <mask>*.java</mask>
     <mask>*.xml</mask>
     <mask>str*.xml</mask>
     <mask>appli*xml</mask>
     <mask>*mapper.xml</mask>
+    <mask>pom.xml</mask>
     <mask>*.*</mask>
   </component>
 </application>
