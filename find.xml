@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*mapper.xml" />
+    <option name="FILE_MASK" value="*.*" />
     <mask>*.html</mask>
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
@@ -23,7 +23,7 @@
     <mask>*.xml</mask>
     <mask>str*.xml</mask>
     <mask>appli*xml</mask>
-    <mask>*.*</mask>
     <mask>*mapper.xml</mask>
+    <mask>*.*</mask>
   </component>
 </application>
