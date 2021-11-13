@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="canonical" />
       <item value="Initialize transaction synchronization as appropriate" />
       <item value="Standard transaction demarcation with getTransaction" />
       <item value="Semantics" />
@@ -50,12 +51,11 @@
       <item value="1. If fewer than corePoolSize threads are running, try to start a new thread with the given command as its first task. The call to addWorker atomically checks runState and workerCount, and so prevents false alarms that would add threads when it shouldn't, by returning false. 2. If a task can be successfully queued, then we still need to double-check whether we should have added a thread (because existing ones died since last checking) or that the pool shut down since entry into this method. So we recheck state and if necessary roll back the enqueuing if stopped, or start a new thread if there are none. 3. If we cannot queue task, then we try to add a new thread. If it fails, we know we are shut down or saturated and so reject the task." />
       <item value="TIDYING" />
       <item value="Indicates the 'role' hint for a given bean. &lt;p&gt;May be used on any class directly or indirectly annotated with {@link org.springframework.stereotype.Component} or on methods annotated with {@link Bean}. &lt;p&gt;If this annotation is not present on a Component or Bean definition, the default value of {@link BeanDefinitionROLE_APPLICATION} will apply. &lt;p&gt;If Role is present on a {@link Configuration @Configuration} class, this indicates the role of the configuration class bean definition and does not cascade to all @{@code Bean} methods defined within. This behavior is different than that of the @{@link Lazy} annotation, for example." />
-      <item value="Second try is the caching operation on the target class" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="203" />
-        <entry key="ENGLISH" value="200" />
+        <entry key="CHINESE" value="204" />
+        <entry key="ENGLISH" value="201" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
@@ -65,7 +65,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1636338474158" />
+    <option name="lastTrimTime" value="1636804820503" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
