@@ -15,7 +15,6 @@
     <mask>*.yml</mask>
     <mask>*.js</mask>
     <mask>*mapper.xml</mask>
-    <mask>str*.xml</mask>
     <mask>appli*xml</mask>
     <mask>pom.xml</mask>
     <mask>*.css</mask>
@@ -24,6 +23,7 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
+    <mask>str*.xml</mask>
     <mask>*.*</mask>
   </component>
 </application>
