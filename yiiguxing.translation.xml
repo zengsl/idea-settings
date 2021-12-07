@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The comma separated list of tokens to include in the WAR before packaging. By default everything is included. This option may be used to implement the skinny WAR use case" />
       <item value="Cache mapping pairs of (key, sub-key) -&gt; value. Keys and values are weakly but sub-keys are strongly referenced. Keys are passed directly to get method which also takes a parameter. Sub-keys are calculated from keys and parameters using the subKeyFactory function passed to the constructor. Values are calculated from keys and parameters using the valueFactory function passed to the constructor. Keys can be null and are compared by identity while sub-keys returned by subKeyFactory or values returned by valueFactory can not be null. Sub-keys are compared using their equals method. Entries are expunged from cache lazily on each invocation to get, containsValue or size methods when the WeakReferences to keys are cleared. Cleared WeakReferences to individual values don't cause expunging, but such entries are logically treated as non-existent and trigger re-evaluation of valueFactory on request for their keysubKey" />
       <item value="The range of valid ports, from bind_port to end_port" />
       <item value="Minimum number of initial members to get a response from" />
@@ -50,12 +51,11 @@
       <item value="terminate" />
       <item value="Eligible" />
       <item value="If true, interrupt at most one worker" />
-      <item value="Transitions to TERMINATED state" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="213" />
-        <entry key="ENGLISH" value="210" />
+        <entry key="CHINESE" value="214" />
+        <entry key="ENGLISH" value="211" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
