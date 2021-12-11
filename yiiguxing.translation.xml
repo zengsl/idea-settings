@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The Class instance representing the primitive type in" />
       <item value="Determines if the class or interface represented by this Class object is either the same as, or is a superclass or superinterface of, the class or interface represented by the specified Class parameter. It returns true if so; otherwise it returns false. If this Class object represents a primitive type, this method returns true if the specified Class parameter is exactly this Class object; otherwise it returns false." />
       <item value="primitive" />
       <item value="The comma separated list of tokens to include in the WAR before packaging. By default everything is included. This option may be used to implement the skinny WAR use case" />
@@ -50,12 +51,11 @@
       <item value="Bit field accessors that don't require unpacking ctl. These depend on the bit layout and on workerCount being never negative" />
       <item value="If pool is stopping, ensure thread is interrupted; if not, ensure thread is not interrupted. This requires a recheck in second case to deal with shutdownNow race while clearing interrupt" />
       <item value="Eligible to terminate" />
-      <item value="terminate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="216" />
-        <entry key="ENGLISH" value="213" />
+        <entry key="CHINESE" value="217" />
+        <entry key="ENGLISH" value="214" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
@@ -65,7 +65,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1638514293707" />
+    <option name="lastTrimTime" value="1639192088868" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
