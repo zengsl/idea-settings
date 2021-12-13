@@ -8,6 +8,7 @@
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".xdk_version_11.2.0.1.0_production" type="PLAIN_TEXT" />
+      <mapping ext="lic" type="PLAIN_TEXT" />
       <mapping ext="lombok" type="PLAIN_TEXT" />
       <mapping ext="policy" type="PLAIN_TEXT" />
       <mapping ext="part1" type="PLAIN_TEXT" />
