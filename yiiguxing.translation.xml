@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="read Primordial Configuration" />
       <item value="The maximum size of array to allocate. Some VMs reserve some header words in an array. Attempts to allocate larger arrays may result in OutOfMemoryError: Requested array size exceeds VM limit" />
       <item value="readlimit – the maximum limit of bytes that can be read before the mark position becomes invalid" />
       <item value="The Class instance representing the primitive type in" />
@@ -50,12 +51,11 @@
       <item value="2. If a task can be successfully queued, then we still need to double-check whether we should have added a thread (because existing ones died since last checking) or that the pool shut down since entry into this method. So we recheck state and if necessary roll back the enqueuing if stopped, or start a new thread if there are none" />
       <item value="Inserts the specified element into this queue, if another thread is waiting to receive it" />
       <item value="completed Abruptly" />
-      <item value="Bit field accessors that don't require unpacking ctl. These depend on the bit layout and on workerCount being never negative" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="219" />
-        <entry key="ENGLISH" value="216" />
+        <entry key="CHINESE" value="220" />
+        <entry key="ENGLISH" value="217" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
