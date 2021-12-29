@@ -17,13 +17,13 @@
     <mask>appli*xml</mask>
     <mask>*.*</mask>
     <mask>*mapper.xml</mask>
+    <mask>pom.xml</mask>
+    <mask>str*.xml</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>pom.xml</mask>
-    <mask>*.jsp</mask>
-    <mask>str*.xml</mask>
-    <mask>*.xml</mask>
   </component>
 </application>
