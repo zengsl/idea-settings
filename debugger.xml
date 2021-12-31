@@ -1,6 +1,7 @@
 <application>
   <component name="DebuggerSettings">
     <option name="TRACING_FILTERS_ENABLED" value="false" />
+    <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
@@ -160,7 +161,7 @@
   </component>
   <component name="NodeRendererSettings">
     <Renderer ID="ToStringRenderer">
-      <option name="ENABLED" value="false" />
+      <option name="ON_DEMAND" value="true" />
     </Renderer>
   </component>
   <component name="XDebuggerSettings">
