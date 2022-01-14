@@ -5,7 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*" />
+    <option name="FILE_MASK" value="*.properties" />
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
     <mask>*Impl.java</mask>
@@ -22,11 +22,11 @@
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
-    <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>pom.xml</mask>
     <mask>str*.xml</mask>
     <mask>*.java</mask>
     <mask>*</mask>
+    <mask>*.properties</mask>
   </component>
 </application>
