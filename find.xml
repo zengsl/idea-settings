@@ -2,10 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="localCaseSensitive" value="true" />
-    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.properties" />
+    <option name="FILE_MASK" value="pom.xml" />
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
     <mask>*Impl.java</mask>
@@ -23,10 +21,10 @@
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
-    <mask>pom.xml</mask>
     <mask>str*.xml</mask>
     <mask>*.java</mask>
     <mask>*</mask>
     <mask>*.properties</mask>
+    <mask>pom.xml</mask>
   </component>
 </application>
