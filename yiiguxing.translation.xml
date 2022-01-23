@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Election" />
       <item value="nd removes the head of this queue, waiting if necessary until an element becomes available." />
       <item value="The writeObject method is responsible for writing the state of the object for its particular class so that the corresponding readObject method can restore it. The method does not need to concern itself with the state belonging to the object's superclasses or subclasses. State is saved by writing the individual fields to the ObjectOutputStream using the writeObject method or by using the methods for primitive data types supported by DataOutput" />
       <item value="even when triggered by lifecycle interfaces like BeanFactoryAware" />
@@ -50,12 +51,11 @@
       <item value="wait out pending interrupt" />
       <item value="Ensures that any interrupt from a possible cancel(true) is only delivered to a task while in run or runAndReset" />
       <item value="culling" />
-      <item value="Are workers subject to culling" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="228" />
-        <entry key="ENGLISH" value="225" />
+        <entry key="CHINESE" value="229" />
+        <entry key="ENGLISH" value="226" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
@@ -65,7 +65,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1641528188572" />
+    <option name="lastTrimTime" value="1642944467994" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
