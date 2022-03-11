@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the result of the computation when it is done. This method differs from get() in that abnormal completion results in RuntimeException or Error, not ExecutionException, and that interrupts of the calling thread do not cause the method to abruptly return by throwing InterruptedException." />
+      <item value="Adds the given task to a submission queue at submitter's current queue, creating one if null or contended." />
       <item value="Execute a JDBC data access operation, implemented as callback action working on a JDBC Connection. This allows for implementing arbitrary data access operations, within Spring's managed JDBC environment: that is, participating in Spring-managed transactions and converting JDBC SQLExceptions into Spring's DataAccessException hierarchy" />
       <item value="initialization" />
       <item value="compatible" />
@@ -49,13 +51,11 @@
       <item value="We want to clear any interrupt we may have received from cancel(true). However, it is permissible to use interrupts as an independent mechanism for a task to communicate with its caller, and there is no way to clear only the cancellation interrupt" />
       <item value="Executes the computation without setting its result, and then resets this future to initial state, failing to do so if the computation encounters an exception or is cancelled" />
       <item value="Treiber stack" />
-      <item value="Treiber" />
-      <item value="It is possible for our interrupter to stall before getting a chance to interrupt us" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="233" />
-        <entry key="ENGLISH" value="230" />
+        <entry key="CHINESE" value="235" />
+        <entry key="ENGLISH" value="232" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
@@ -65,7 +65,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1646203821023" />
+    <option name="lastTrimTime" value="1646962922666" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
