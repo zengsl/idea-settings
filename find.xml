@@ -18,13 +18,13 @@
     <mask>*.html</mask>
     <mask>str*.xml</mask>
     <mask>*</mask>
-    <mask>*.java</mask>
     <mask>*.js</mask>
     <mask>*.properties</mask>
     <mask>*mapper.xml</mask>
-    <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>pom.xml</mask>
+    <mask>*.jsp</mask>
+    <mask>*.java</mask>
     <mask>*.*</mask>
   </component>
 </application>
