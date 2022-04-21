@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A stream pipeline, like the &quot;widgets&quot; example above, can be viewed as a query on the stream source. Unless the source was explicitly designed for concurrent modification (such as a ConcurrentHashMap), unpredictable or erroneous behavior may result from modifying the stream source while it is being queried" />
+      <item value="Collections and streams, while bearing some superficial similarities, have different goals. Collections are primarily concerned with the efficient management of, and access to, their elements. By contrast, streams do not provide a means to directly access or manipulate their elements, and are instead concerned with declaratively describing their source and the computational operations which will be performed in aggregate on that source. However, if the provided stream operations do not offer the desired functionality, the iterator() and spliterator() operations can be used to perform a controlled traversal." />
+      <item value="A stream implementation is permitted significant latitude in optimizing the computation of the result. For example, a stream implementation is free to elide operations (or entire stages) from a stream pipeline -- and therefore elide invocation of behavioral parameters -- if it can prove that it would not affect the result of the computation. This means that side-effects of behavioral parameters may not always be executed and should not be relied upon, unless otherwise specified (such as by the terminal operations forEach and forEachOrdered). (For a specific example of such an optimization, see the API note documented on the count operation. For more detail, see the side-effects section of the stream package documentation.)" />
+      <item value="elide" />
+      <item value="computation" />
+      <item value="significant" />
+      <item value="latitude" />
+      <item value="permitted" />
       <item value="Returns the result of the computation when it is done. This method differs from get() in that abnormal completion results in RuntimeException or Error, not ExecutionException, and that interrupts of the calling thread do not cause the method to abruptly return by throwing InterruptedException." />
       <item value="Adds the given task to a submission queue at submitter's current queue, creating one if null or contended." />
       <item value="Execute a JDBC data access operation, implemented as callback action working on a JDBC Connection. This allows for implementing arbitrary data access operations, within Spring's managed JDBC environment: that is, participating in Spring-managed transactions and converting JDBC SQLExceptions into Spring's DataAccessException hierarchy" />
@@ -43,19 +51,11 @@
       <item value="Because TreeNodes are about twice the size of regular nodes, we use them only when bins contain enough nodes to warrant use (see TREEIFY_THRESHOLD). And when they become too small (due to removal or resizing) they are converted back to plain bins. In usages with well-distributed user hashCodes, tree bins are rarely used. Ideally, under random hashCodes, the frequency of nodes in bins follows a Poisson distribution (http:en.wikipedia.orgwikiPoisson_distribution) with a parameter of about 0.5 on average for the default resizing threshold of 0.75, although with a large variance because of resizing granularity. Ignoring variance, the expected occurrences of list size k are (exp(-0.5) pow(0.5, k) factorial(k)). The first values are:" />
       <item value="Parses all the unprocessed statement nodes in the cache. It is recommended to call this method once all the mappers are added as it provides fail-fast statement validation" />
       <item value="arses all the unprocessed statement nodes in the cache. It is recommended to call this method once all the mappers are added as it provides fail-fast statement validation" />
-      <item value="sifts" />
-      <item value="retain" />
-      <item value="don't retain ref while waiting" />
-      <item value="Constrains the values of all delays in the queue to be within Long.MAX_VALUE of each other, to avoid overflow in compareTo. This may occur if a task is eligible to be dequeued, but has not yet been, while some other task is added with a delay of Long.MAX_VALUE" />
-      <item value="Same as prestartCoreThread except arranges that at least one thread is started even if corePoolSize is 0" />
-      <item value="We want to clear any interrupt we may have received from cancel(true). However, it is permissible to use interrupts as an independent mechanism for a task to communicate with its caller, and there is no way to clear only the cancellation interrupt" />
-      <item value="Executes the computation without setting its result, and then resets this future to initial state, failing to do so if the computation encounters an exception or is cancelled" />
-      <item value="Treiber stack" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="235" />
-        <entry key="ENGLISH" value="232" />
+        <entry key="CHINESE" value="244" />
+        <entry key="ENGLISH" value="241" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
@@ -65,7 +65,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1646962922666" />
+    <option name="lastTrimTime" value="1650522891430" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
