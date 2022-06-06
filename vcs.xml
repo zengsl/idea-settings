@@ -10,6 +10,10 @@
           <option name="url" value="http://gitee.com" />
           <option name="userName" value="zengsl0212@foxmail.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.0.230.2:3000" />
+          <option name="userName" value="zengsl0212@foxmail.com" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
