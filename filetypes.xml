@@ -11,6 +11,7 @@
       <mapping ext="adaptiveext2" type="PLAIN_TEXT" />
       <mapping ext="lic" type="PLAIN_TEXT" />
       <mapping ext="robot" type="PLAIN_TEXT" />
+      <mapping ext="license" type="PLAIN_TEXT" />
       <mapping ext="lombok" type="PLAIN_TEXT" />
       <mapping ext="policy" type="PLAIN_TEXT" />
       <mapping ext="part1" type="PLAIN_TEXT" />
