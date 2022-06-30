@@ -26,6 +26,7 @@
     <mask>*.xml</mask>
     <mask>bootstrap.yml</mask>
     <mask>pom.xml</mask>
+    <mask>*Controller.java</mask>
     <mask>*.*</mask>
   </component>
 </application>
