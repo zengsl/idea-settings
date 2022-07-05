@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Switch User processing filter responsible for user context switching. This filter is similar to Unix 'su' however for Spring Security-managed web applications. A common use-case for this feature is the ability to allow higher-authority users (e.g. ROLE_ADMIN) to switch to a regular user (e.g. ROLE_USER). This filter assumes that the user performing the switch will be required to be logged in as normal (i.e. as a ROLE_ADMIN user). The user will then access a pagecontroller that enables the administrator to specify who they wish to become (see switchUserUrl). Note: This URL will be required to have appropriate security constraints configured so that only users of that role can access it (e.g. ROLE_ADMIN). On a successful switch, the user's SecurityContext will be updated to reflect the specified user and will also contain an additional SwitchUserGrantedAuthority which contains the original user. Before switching, a check will be made on whether the user is already currently switched, and any current switch will be exited to prevent &quot;nested&quot; switches. To 'exit' from a user context, the user needs to access a URL (see exitUserUrl) that will switch back to the original user as identified by the ROLE_PREVIOUS_ADMINISTRATOR. To configure the Switch User Processing Filter, create a bean definition for the Switch User processing filter and add to the filterChainProxy. Note that the filter must come after the FilterSecurityInteceptor in the chain, in order to apply the correct constraints to the switchUserUrl. Example: &lt;bean id=&quot;switchUserProcessingFilter&quot; class=&quot;org.springframework.security.web.authentication.switchuser.SwitchUserFilter&quot;&gt; &lt;property name=&quot;userDetailsService&quot; ref=&quot;userDetailsService&quot; &gt; &lt;property name=&quot;switchUserUrl&quot; value=&quot;loginimpersonate&quot; &gt; &lt;property name=&quot;exitUserUrl&quot; value=&quot;logoutimpersonate&quot; &gt; &lt;property name=&quot;targetUrl&quot; value=&quot;index.jsp&quot; &gt; &lt;bean&gt;" />
       <item value="Represents an operation that accepts a single input argument and returns no result. Unlike most other functional interfaces, Consumer is expected to operate via side-effects." />
       <item value="This is a short-circuiting stateful intermediate operation" />
       <item value="This is a short-circuiting stateful intermediate operation." />
@@ -50,12 +51,11 @@
       <item value="Minimum number of initial members to get a response from" />
       <item value="While String is the easiest way to manipulate chars ( search, substrings, etc), it is known to not be the most efficient solution - Strings are designed as immutable and secure objects" />
       <item value="Utilities" />
-      <item value="Utilities to manipulate char chunks" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="259" />
-        <entry key="ENGLISH" value="256" />
+        <entry key="CHINESE" value="260" />
+        <entry key="ENGLISH" value="257" />
         <entry key="GERMAN" value="1" />
         <entry key="CZECH" value="1" />
         <entry key="ROMANIAN" value="2" />
@@ -65,7 +65,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1650522891430" />
+    <option name="lastTrimTime" value="1656987983508" />
   </component>
   <component name="Settings">
     <option name="baiduTranslateSettings">
