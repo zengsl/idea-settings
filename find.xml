@@ -22,11 +22,11 @@
     <mask>*.xml</mask>
     <mask>bootstrap.yml</mask>
     <mask>*Controller.java</mask>
-    <mask>*.js</mask>
     <mask>*.yml</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
     <mask>pom.xml</mask>
+    <mask>*.js</mask>
     <mask>*.*</mask>
   </component>
 </application>
