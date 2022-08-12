@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="customScope" value="润钱报表" />
+    <option name="defaultScopeName" value="润钱报表" />
+    <option name="SEARCH_SCOPE" value="润钱报表" />
+    <option name="FILE_MASK" value="*.jsp" />
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
     <mask>*Impl.java</mask>
@@ -23,10 +23,10 @@
     <mask>bootstrap.yml</mask>
     <mask>*Controller.java</mask>
     <mask>*.yml</mask>
-    <mask>*.jsp</mask>
     <mask>*.js</mask>
     <mask>pom.xml</mask>
     <mask>*.java</mask>
     <mask>*.*</mask>
+    <mask>*.jsp</mask>
   </component>
 </application>
