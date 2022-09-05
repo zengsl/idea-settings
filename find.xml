@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="pom.xml" />
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
     <mask>*Impl.java</mask>
@@ -23,11 +23,11 @@
     <mask>bootstrap.yml</mask>
     <mask>*Controller.java</mask>
     <mask>*.js</mask>
-    <mask>*.yml</mask>
     <mask>*.jsp</mask>
     <mask>*.*</mask>
     <mask>*Mapper.xml</mask>
-    <mask>pom.xml</mask>
     <mask>*.java</mask>
+    <mask>*.yml</mask>
+    <mask>pom.xml</mask>
   </component>
 </application>
