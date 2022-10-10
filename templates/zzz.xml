@@ -1,5 +1,5 @@
 <templateSet group="zzz">
-  <template name="/**" value="/**&#10;*$Description$&#10;*$param$&#10;*&#10;*&#10;*/" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="/**" value="/**&#10;*$Description$&#10;*$param$&#10;*&#10;*&#10;*/" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <variable name="Description" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
