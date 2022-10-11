@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="customScope" value="Project 'RuoYi-Cloud'" />
+    <option name="defaultScopeName" value="Project 'RuoYi-Cloud'" />
+    <option name="SEARCH_SCOPE" value="Project 'RuoYi-Cloud'" />
+    <option name="FILE_MASK" value="*.*" />
     <mask>*Constants.java</mask>
     <mask>common.css</mask>
     <mask>*Impl.java</mask>
@@ -26,8 +26,8 @@
     <mask>*.jsp</mask>
     <mask>*Mapper.xml</mask>
     <mask>*.yml</mask>
-    <mask>*.*</mask>
-    <mask>pom.xml</mask>
     <mask>*.java</mask>
+    <mask>pom.xml</mask>
+    <mask>*.*</mask>
   </component>
 </application>
