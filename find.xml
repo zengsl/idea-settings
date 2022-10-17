@@ -26,8 +26,8 @@
     <mask>*.jsp</mask>
     <mask>*Mapper.xml</mask>
     <mask>*.yml</mask>
-    <mask>pom.xml</mask>
     <mask>*.java</mask>
+    <mask>pom.xml</mask>
     <mask>*.*</mask>
   </component>
 </application>
