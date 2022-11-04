@@ -1,7 +1,0 @@
-<application>
-  <component name="ExportableFileTemplateSettings">
-    <default_templates>
-      <template name="new-activiti-diagram.bpmn20.xml" reformat="true" live-template-enabled="false" enabled="false" />
-    </default_templates>
-  </component>
-</application>
